@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/carlosk/umeng.git"}
   s.source_files = '*.{h,m}'
   s.requires_arc = true
-  s.library      = libz.dylib
+  s.framework    = libz.dylib
   s.platform     = :ios
 end
