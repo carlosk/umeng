@@ -6,8 +6,7 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   s.author       = {"carlos" => "carlosk@163.com" }
   s.source       = { :git => "https://github.com/carlosk/umeng.git"}
-  s.source_files = '*.{h,m}'
+  s.source_files = '*.{h,m,a}'
   s.requires_arc = true
-  s.framework    = libz.dylib
-  s.platform     = :ios
+  s.library    = libz.dylib
 end
